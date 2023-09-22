@@ -1,0 +1,66 @@
+title: 'Section Team'
+fields:
+  -
+    handle: team_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Team Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: team_card
+    field:
+      fields:
+        -
+          handle: team_name
+          field:
+            input_type: text
+            antlers: false
+            display: 'Team Name'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: team_description
+          field:
+            input_type: text
+            antlers: false
+            display: 'Team Description'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: team_photo
+          field:
+            mode: list
+            container: assets
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            display: 'Team Photo'
+            type: assets
+            icon: assets
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+      mode: stacked
+      reorderable: true
+      display: 'Team Card'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

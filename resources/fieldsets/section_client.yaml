@@ -1,0 +1,88 @@
+title: 'Section Client'
+fields:
+  -
+    handle: client_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Client Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: client_description
+    field:
+      antlers: false
+      display: 'Client Description'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: client_card
+    field:
+      fields:
+        -
+          handle: client_name
+          field:
+            input_type: text
+            antlers: false
+            display: 'Client Name'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: client_description
+          field:
+            input_type: text
+            antlers: false
+            display: 'Client Description'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: client_image
+          field:
+            mode: list
+            container: assets
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            display: 'Client Image'
+            type: assets
+            icon: assets
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: client_content
+          field:
+            antlers: false
+            display: 'Client Content'
+            type: textarea
+            icon: textarea
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+      mode: stacked
+      reorderable: true
+      display: 'Client Card'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

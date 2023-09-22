@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="{{ title }}" name="keywords">
+    <meta content="{{ title }}" name="description">
+
+    {{ partial:css }}
+
+</head>
+
+<body>
+
+    {{ partial:header }}
+
+    {{ template_content }}
+
+    {{ partial:footer }}
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    {{ partial:js }}
+
+</body>
+
+</html>

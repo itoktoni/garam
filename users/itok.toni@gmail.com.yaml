@@ -1,0 +1,13 @@
+super: true
+name: 'itok toni laksono'
+id: e2b47729-545e-4738-8fe2-8f2d3902ad49
+password_hash: $2y$10$CZtmi62pOOe6MOJzeLgRIuqAvO7Iex6jJQH08yRG.EvEpQ2.Gd/aG
+preferences:
+  forms:
+    contact:
+      columns:
+        - datestamp
+        - contact_name
+        - contact_email
+        - contact_mobile
+        - contact_description

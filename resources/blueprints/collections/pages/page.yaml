@@ -1,0 +1,87 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: section
+        field:
+          collapse: false
+          previews: true
+          sets:
+            section_slider:
+              display: 'Section Slider'
+              fields:
+                -
+                  handle: grid_field
+                  field:
+                    fields:
+                      -
+                        import: slider
+                    mode: stacked
+                    reorderable: true
+                    display: 'Grid Field'
+                    type: grid
+                    icon: grid
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            section_contact:
+              display: 'Section Contact'
+              fields:
+                -
+                  import: contact
+            section_team:
+              display: 'Section Team'
+              fields:
+                -
+                  import: section_team
+            section_client:
+              display: 'Section Client'
+              fields:
+                -
+                  import: section_client
+          display: 'New Section'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+      -
+        handle: template
+        field:
+          hide_partials: true
+          blueprint: false
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+title: Page

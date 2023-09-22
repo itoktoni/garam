@@ -1,0 +1,19 @@
+title: Configuration
+data:
+  website_name: 'PT. GARAM TERANG TRANSPORTINDO'
+  website_description: |-
+    Lodan Center Complex, No. K1 Jl. Lodan Center Pintu II,
+    RT13 / RW.02, Kel. Ancol, Kec. Pademangan, Kota Jakarta
+    Utara, DKI Jakarta -14430
+  website_logo:
+    - logo.jpg
+  website_favicon:
+    - favicon.png
+  website_email: alin@gttransportindo.com
+  website_phone: '628881699899'
+  website_address: |-
+    Lodan Center Complex, No. K1 Jl. Lodan Center Pintu II,
+    RT13 / RW.02, Kel. Ancol, Kec. Pademangan, Kota Jakarta
+    Utara, DKI Jakarta -14430
+  website_quotation:
+    - document-(70).pdf

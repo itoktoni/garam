@@ -1,0 +1,52 @@
+title: 'Section Slider'
+fields:
+  -
+    handle: slider_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Slider Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: slider_content
+    field:
+      antlers: false
+      display: 'Slider Content'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: slider_image
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: 'Slider Image'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: slider_action
+    field:
+      input_type: text
+      antlers: false
+      display: 'Slider Action'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
