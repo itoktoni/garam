@@ -105,3 +105,50 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: website_hongkong_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Website Hongkong Title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: website_hongkong_phone
+        field:
+          input_type: text
+          antlers: false
+          display: 'Website Hongkong Phone'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: website_hongkong_email
+        field:
+          input_type: email
+          antlers: false
+          display: 'Website Hongkong Email'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: website_hongkong_address
+        field:
+          antlers: false
+          display: 'Website Hongkong Address'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

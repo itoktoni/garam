@@ -1,2 +1,89 @@
 title: 'Section Image Right'
-fields: {  }
+fields:
+  -
+    handle: right_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Right Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: right_sub_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Right Sub Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: right_image
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: 'Right Image'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: right_grid
+    field:
+      fields:
+        -
+          handle: right_point_icon
+          field:
+            input_type: text
+            antlers: false
+            display: 'Right Point Icon'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: right_point_title
+          field:
+            input_type: text
+            antlers: false
+            display: 'Right Point Title'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: right_point_description
+          field:
+            antlers: false
+            display: 'Right Point Description'
+            type: textarea
+            icon: textarea
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+      mode: stacked
+      reorderable: true
+      display: 'Right Grid'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

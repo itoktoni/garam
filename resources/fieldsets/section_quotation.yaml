@@ -1,0 +1,61 @@
+title: 'Section Quotation'
+fields:
+  -
+    handle: quotation_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Quotation Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: quotation_sub_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Quotation Sub Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: quotation_description
+    field:
+      antlers: false
+      display: 'Quotation Description'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: quotation_contact_phone
+    field:
+      input_type: text
+      antlers: false
+      display: 'Quotation Contact Phone'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: quotation_contact_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Quotation Contact Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

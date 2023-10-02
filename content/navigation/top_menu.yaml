@@ -1,1 +1,3 @@
-title: 'Top Menu'
+title: Menu
+collections:
+  - articles

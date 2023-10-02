@@ -1,2 +1,113 @@
 title: 'Section Image Left'
-fields: {  }
+fields:
+  -
+    handle: left_image
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: 'Left Image'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: left_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Left Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: left_sub_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Left Sub Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: left_description
+    field:
+      input_type: text
+      antlers: false
+      display: 'Left Description'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: left_grid
+    field:
+      fields:
+        -
+          handle: left_point_icon
+          field:
+            input_type: text
+            antlers: false
+            display: 'Left Point Icon'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: left_point_title
+          field:
+            input_type: text
+            antlers: false
+            display: 'Left Point Title'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: left_point_description
+          field:
+            antlers: false
+            display: 'Left Point Description'
+            type: textarea
+            icon: textarea
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+      mode: stacked
+      reorderable: true
+      display: 'Left Grid'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: left_button_link
+    field:
+      input_type: text
+      antlers: false
+      display: 'Left Button Link'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

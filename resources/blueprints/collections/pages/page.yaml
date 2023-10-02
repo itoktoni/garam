@@ -48,6 +48,36 @@ sections:
               fields:
                 -
                   import: section_client
+            section_left:
+              display: 'Section Left'
+              fields:
+                -
+                  import: section_image_left
+            section_right:
+              display: 'Section Right'
+              fields:
+                -
+                  import: section_image_right
+            section_service:
+              display: 'Section Service'
+              fields:
+                -
+                  import: section_service
+            section_quotation:
+              display: 'Section Quotation'
+              fields:
+                -
+                  import: section_quotation
+            section_header:
+              display: 'Section Header'
+              fields:
+                -
+                  import: section_header
+            section_article:
+              display: 'Section Article'
+              fields:
+                -
+                  import: section_content
           display: 'New Section'
           type: replicator
           icon: replicator
