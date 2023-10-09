@@ -78,6 +78,11 @@ sections:
               fields:
                 -
                   import: section_content
+            section_two:
+              display: 'Section Two'
+              fields:
+                -
+                  import: section_two_column
           display: 'New Section'
           type: replicator
           icon: replicator

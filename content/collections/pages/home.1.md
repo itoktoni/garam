@@ -2,8 +2,8 @@
 id: 006f2a2f-3834-48ab-ad63-fd4767697b6b
 blueprint: page
 title: Home
-updated_by: e2b47729-545e-4738-8fe2-8f2d3902ad49
-updated_at: 1695800980
+updated_by: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
+updated_at: 1696828682
 template: default
 replicator_field:
   -
@@ -29,10 +29,11 @@ section:
     grid_field:
       -
         id: lmm0wk7p
-        slider_title: 'Place for your logistics'
-        slider_content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s,'
+        slider_title: 'PT GARAM TERANG TRANSPORTINDO'
+        slider_content: 'Your reliable partner for providing sea and air freight service, consolidation, project cargo, handling and customs clearance.'
         slider_image:
-          - carousel-1.jpg
+          - main-slider.jpeg
+        slider_sub_title: 'WELCOME TO'
       -
         id: lmn3km1g
         slider_title: 'Place for your tansportation'
@@ -42,96 +43,40 @@ section:
     type: section_slider
     enabled: true
   -
-    id: lmm0xqfq
-    client_title: Client
-    type: section_client
-    enabled: true
-    client_card:
+    id: lnifp43c
+    grid_field:
       -
-        id: lmn8ma0i
-        client_name: 'Client 1'
-        client_description: Profesional
-        client_photo:
-          - testimonial-1.jpg
-        client_content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC'
-        client_image:
-          - testimonial-1.jpg
+        id: lnifp9nn
+        two_title: 'Air Freight'
+        two_image:
+          - service-1.jpg
       -
-        id: lmn8oxb1
-        client_name: 'Client 2'
-        client_description: 'testing 2'
-        client_photo:
-          - testimonial-2.jpg
-        client_content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC'
-        client_image:
-          - testimonial-2.jpg
-      -
-        id: lmn8perf
-        client_name: 'Client 3'
-        client_description: 'test 3'
-        client_photo:
-          - testimonial-3.jpg
-        client_content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC'
-        client_image:
-          - testimonial-3.jpg
-      -
-        id: lmn8q0cj
-        client_name: 'Client 4'
-        client_description: 'test 4'
-        client_photo:
-          - testimonial-4.jpg
-        client_content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC'
-        client_image:
-          - testimonial-4.jpg
-  -
-    id: lmymv6jg
-    left_image:
-      - about.jpg
-    left_title: 'Our Company Profile'
-    left_sub_title: 'ABOUT US'
-    left_description: 'PT Garam Terang Transportindo is an international freight forwarder, founded in 2017. We are part of Lognet Global Logistics Network.'
-    left_grid:
-      -
-        id: lmymxfau
-        left_point_icon: fa-globe
-        left_point_title: Vision
-        left_point_description: 'Our vision is to be efficient and reliable freight forwarding company which services exceed our clients'' expectations, with a strong focus sustainability, and strategic partnerships.'
-      -
-        id: lmymxq1t
-        left_point_icon: fa-shipping-fast
-        left_point_title: Mission
-        left_point_description: 'We totally understand, supply chain is one of the most important aspects to support our customer’s business growth. We strive and keep it as our priority to create a seamless and interconnected supply chain network, driving growth and delivering value to our customers.'
-    type: section_left
+        id: lnifqhqb
+        two_title: 'Sea Freight'
+        two_image:
+          - service-2.jpg
+    type: section_two
     enabled: true
   -
-    id: lmyreh0r
-    right_title: 'We Are Excellent'
-    right_sub_title: 'OUR FEATURES'
-    right_grid:
-      -
-        id: lmyrepm4
-        right_point_icon: fa-thumbs-up
-        right_point_title: Reliability
-        right_point_description: 'Reliability is crucial in build trust with customers and maintaining long-term business relationships. We strive to delivers shipments on time and ensures that goods reach their destinations without delays.'
-      -
-        id: lmyrf979
-        right_point_icon: fa-shipping-fast
-        right_point_title: Efficient
-        right_point_description: 'We try to optimizing routes, minimizing transit times, and effectively managing documentation and customs clearance to increase efficiency in handling logistics and shipments as a significant factor of our success.'
-      -
-        id: lmyrfvxp
-        right_point_title: 'Global Reach and Network'
-        right_point_description: 'Wide-reaching network of partners, agents, and carriers worldwide are our important aspects for us. Therefore, we able to offer comprehensive coverage and services to customers across different regions.'
-        right_point_icon: fa-globe
-      -
-        id: lmyrgi2z
-        right_point_icon: fa-headphones
-        right_point_title: 'Customer Service and Communication'
-        right_point_description: 'We are providing excellent and effective communication build strong relationships with clients. Responsive and proactive approach to customer needs will distinguish us from another competitor.'
-    type: section_right
-    enabled: true
+    id: lnifc8n7
+    right_title: 'Your Shipping Partner'
     right_image:
       - feature.jpg
+    type: section_right
+    enabled: true
+    right_description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Our vision is to be efficient and reliable freight forwarding company which services exceed our clients'' expectations, with a strong focus sustainability, and strategic partnerships.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We totally understand, supply chain is one of the most important aspects to support our customer’s business growth. We strive and keep it as our priority to create a seamless and interconnected supply chain network, driving growth and delivering value to our customers.'
   -
     id: lmywjvu3
     service_title: 'OUR SERVICES'
@@ -159,11 +104,12 @@ section:
     enabled: true
   -
     id: lmzksa0s
-    quotation_title: 'Request A Free Qoute!'
-    quotation_sub_title: 'GET A QUOTE'
-    quotation_description: 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet'
-    quotation_contact_phone: '+012 345 6789'
-    quotation_contact_title: 'Call for any query'
+    quotation_title: 'Contact Us!'
+    quotation_description: |-
+      We always here for you to provide update rate quotation
+      please complete the following form and click "Submit"
+    quotation_contact_phone: '+6221 38873009'
+    quotation_contact_title: 'Call for any rate inquiry'
     type: section_quotation
     enabled: true
 ---

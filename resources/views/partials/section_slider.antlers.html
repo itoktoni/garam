@@ -1,5 +1,5 @@
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5">
+    <div class="container-fluid p-0">
         <div class="owl-carousel header-carousel position-relative mb-5">
             {{ grid_field }}
             <div class="owl-carousel-item position-relative">
@@ -10,6 +10,7 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">{{ slider_sub_title }}</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">{{ slider_title }}</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">{{ slider_content }}</p>
                                 {{ if slider_action }}

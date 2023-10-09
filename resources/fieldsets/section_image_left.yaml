@@ -42,11 +42,10 @@ fields:
   -
     handle: left_description
     field:
-      input_type: text
       antlers: false
       display: 'Left Description'
-      type: text
-      icon: text
+      type: textarea
+      icon: textarea
       listable: hidden
       instructions_position: above
       visibility: visible

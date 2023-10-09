@@ -1,0 +1,53 @@
+title: 'Section Two Column'
+fields:
+  -
+    handle: grid_field
+    field:
+      fields:
+        -
+          handle: two_title
+          field:
+            input_type: text
+            antlers: false
+            display: 'Two Title'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: two_image
+          field:
+            mode: list
+            container: assets
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            display: 'Two Image'
+            type: assets
+            icon: assets
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: two_description
+          field:
+            antlers: false
+            display: 'Two Description'
+            type: textarea
+            icon: textarea
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+      mode: table
+      reorderable: true
+      display: 'Grid Field'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

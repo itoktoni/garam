@@ -1,0 +1,27 @@
+<!-- Testimonial Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="text-center">
+            <h1 class="mb-0">{{ client_title }}</h1>
+            <h6 class="text-secondary text-uppercase">{{ client_description }}</h6>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            {{ client_card }}
+            <div class="testimonial-item p-4 my-5">
+                <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                <div class="d-flex align-items-end mb-4">
+                    {{ client_image }}
+                        <img class="img-fluid flex-shrink-0" src="{{ url }}" {{ alt }} style="width: 80px; height: 80px;">
+                    {{ /client_image }}
+                    <div class="ms-4">
+                        <h5 class="mb-1">{{ client_name }}</h5>
+                        <p class="m-0">{{ client_description }}</p>
+                    </div>
+                </div>
+                <p class="mb-0">{{ client_content }}</p>
+            </div>
+            {{ /client_card }}
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
