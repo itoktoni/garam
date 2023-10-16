@@ -9,6 +9,19 @@
                     {{ right_description }}
                 </p>
                 {{ right_grid }}
+                {{ if right_point_block }}
+                <div class="mb-5 mt-5 wow fadeInUp right-block" data-wow-delay="0.3s">
+                    <div class="col col-lg-12 mb-2">
+                        <i class="fa {{ right_point_icon }} text-primary fa-3x flex-shrink-0"></i>
+                    </div>
+                    <div class="ms-12 col col-ld-auto mb-2">
+                        <h5 class="text-white">{{ right_point_title }}</h5>
+                        <p class="mb-0">
+                            {{ right_point_description }}
+                        </p>
+                    </div>
+                </div>
+                {{ else }}
                 <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="col col-lg-1">
                         <i class="fa {{ right_point_icon }} text-primary fa-3x flex-shrink-0"></i>
@@ -20,6 +33,7 @@
                         </p>
                     </div>
                 </div>
+                {{ /if }}
                 {{ /right_grid }}
             </div>
             <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">

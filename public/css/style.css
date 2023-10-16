@@ -468,3 +468,14 @@
 .footer .copyright a {
     color: var(--light);
 }
+
+.right-block{
+    background-color: #060315;
+    color: #EEEEEE;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.text-white{
+    color: #EEEEEE;
+}

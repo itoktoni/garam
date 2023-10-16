@@ -3,7 +3,7 @@ id: 006f2a2f-3834-48ab-ad63-fd4767697b6b
 blueprint: page
 title: Home
 updated_by: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
-updated_at: 1696828682
+updated_at: 1697464573
 template: default
 replicator_field:
   -
@@ -59,7 +59,7 @@ section:
     enabled: true
   -
     id: lnifc8n7
-    right_title: 'Your Shipping Partner'
+    right_title: "Your One Stop Shipping\_Solution"
     right_image:
       - feature.jpg
     type: section_right
@@ -70,13 +70,20 @@ section:
         content:
           -
             type: text
-            text: 'Our vision is to be efficient and reliable freight forwarding company which services exceed our clients'' expectations, with a strong focus sustainability, and strategic partnerships.'
+            text: 'PT. Garam Terang Transportindo is an international freight forwarder which always grows our wide-reaching global network endeavor to offer comprehensive coverage and service for our customers. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We totally understand, supply chain is one of the most important aspects to support our customer’s business growth. We strive and keep it as our priority to create a seamless and interconnected supply chain network, driving growth and delivering value to our customers.'
+            text: "We always be ready to support your logistics and supply chain in aim to help your business grow. By providing suitable option for delivery by sea, air and land, whatever your industry, we’re here as your global\_forwarding."
+    right_grid:
+      -
+        id: lnsyhorr
+        right_point_icon: fa-globe
+        right_point_title: 'Our Goals!'
+        right_point_description: "Providing wide range and efficient service to meet our customer’s needs, expectations and business objectives as their logistics partner\_and\_solution."
+        right_point_block: true
   -
     id: lmywjvu3
     service_title: 'OUR SERVICES'
