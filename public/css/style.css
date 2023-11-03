@@ -479,3 +479,14 @@
 .text-white{
     color: #EEEEEE;
 }
+
+.wa{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.wa img{
+    height: 60px;
+}

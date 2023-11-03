@@ -3,7 +3,7 @@ id: 006f2a2f-3834-48ab-ad63-fd4767697b6b
 blueprint: page
 title: Home
 updated_by: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
-updated_at: 1697464573
+updated_at: 1699004221
 template: default
 replicator_field:
   -
@@ -61,7 +61,7 @@ section:
     id: lnifc8n7
     right_title: "Your One Stop Shipping\_Solution"
     right_image:
-      - feature.jpg
+      - 5-(crop2).jpg
     type: section_right
     enabled: true
     right_description:

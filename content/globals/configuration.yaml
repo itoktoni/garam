@@ -35,3 +35,6 @@ data:
     Unit 1603, 16th Floor, The L. Plaza, 367-
     375 Queen’s Road Central, Sheung Wan -
     Hong Kong
+  website_wa_image:
+    - wa.png
+  website_wa_phone: '628881699899'

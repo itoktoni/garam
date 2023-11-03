@@ -20,7 +20,13 @@
 
     {{ partial:footer }}
 
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    {{# <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a> #}}
+
+    <a target="_blank" href="https://wa.me/{{ configuration:website_wa_phone }}" class="wa">
+        {{ configuration:website_wa_image }}
+            <img src="{{ url }}" alt="{{ alt }}">
+        {{ /configuration:website_wa_image }}
+    </a>
 
     {{ partial:js }}
 
