@@ -490,3 +490,10 @@
 .wa img{
     height: 60px;
 }
+
+.block-slider{
+    background-color: rgba(0, 0, 0, .4);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

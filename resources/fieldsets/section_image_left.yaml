@@ -110,3 +110,14 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+  -
+    handle: left_style
+    field:
+      antlers: false
+      display: 'Left Style'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

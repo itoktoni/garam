@@ -59,3 +59,27 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+  -
+    handle: quotation_link
+    field:
+      input_type: text
+      antlers: false
+      display: 'Quotation Link'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: quotation_button
+    field:
+      input_type: text
+      antlers: false
+      display: 'Quotation Button'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

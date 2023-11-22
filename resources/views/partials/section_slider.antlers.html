@@ -6,13 +6,15 @@
                 {{ slider_image }}
                     <img class="img-fluid" src="{{ url }}" alt="{{ alt }}">
                 {{ /slider_image }}
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">{{ slider_sub_title }}</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">{{ slider_title }}</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">{{ slider_content }}</p>
+                                {{ if slider_sub_title }}
+                                <h5 class="text-white text-uppercase mb-4 animated slideInDown"><span class="block-slider">{{ slider_sub_title }}</span></h5>
+                                {{ /if }}
+                                <h1 class="display-3 text-white animated slideInDown mb-3 block-slider">{{ slider_title }}</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2 block-slider">{{ slider_content }}</p>
                                 {{ if slider_action }}
                                     <a href="{{ slider_action }}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn More</a>
                                 {{ /if }}

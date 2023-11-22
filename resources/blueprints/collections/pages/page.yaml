@@ -83,6 +83,11 @@ sections:
               fields:
                 -
                   import: section_two_column
+            section_block:
+              display: 'Section Block'
+              fields:
+                -
+                  import: section_block
           display: 'New Section'
           type: replicator
           icon: replicator

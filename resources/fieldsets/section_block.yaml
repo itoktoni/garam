@@ -1,0 +1,49 @@
+title: 'Section Block'
+fields:
+  -
+    handle: block_header
+    field:
+      input_type: text
+      antlers: false
+      display: 'Block Header'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: block_link
+    field:
+      input_type: text
+      antlers: false
+      display: 'Block Link'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: block_button
+    field:
+      input_type: text
+      antlers: false
+      display: 'Block Button'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: block_description
+    field:
+      antlers: false
+      display: 'Block Description'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

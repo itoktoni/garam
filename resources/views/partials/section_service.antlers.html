@@ -7,15 +7,15 @@
         </div>
         <div class="row g-4">
             {{ service_grid }}
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item p-4">
                     <div class="overflow-hidden mb-4">
                         {{ service_point_image }}
                             <img class="img-fluid" src="{{ url }}" alt="{{ alt }}">
                         {{ /service_point_image }}
                     </div>
-                    <h4 class="mb-3">{{ service_point_title }}</h4>
-                    {{ service_point_description }}
+                    <h4 class="mb-3 text-center">{{ service_point_title }}</h4>
+                    <span class="text-center">{{ service_point_description }}</span>
                 </div>
             </div>
             {{ /service_grid }}

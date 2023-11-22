@@ -135,3 +135,14 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+  -
+    handle: right_style
+    field:
+      antlers: false
+      display: 'Right Style'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

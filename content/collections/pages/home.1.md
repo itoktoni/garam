@@ -3,7 +3,7 @@ id: 006f2a2f-3834-48ab-ad63-fd4767697b6b
 blueprint: page
 title: Home
 updated_by: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
-updated_at: 1699004221
+updated_at: 1700664815
 template: default
 replicator_field:
   -
@@ -31,37 +31,28 @@ section:
         id: lmm0wk7p
         slider_title: 'PT GARAM TERANG TRANSPORTINDO'
         slider_content: 'Your reliable partner for providing sea and air freight service, consolidation, project cargo, handling and customs clearance.'
-        slider_image:
-          - main-slider.jpeg
         slider_sub_title: 'WELCOME TO'
+        slider_image:
+          - slider-1-(custom).jpg
       -
         id: lmn3km1g
-        slider_title: 'Place for your tansportation'
-        slider_content: 'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged'
+        slider_title: 'We recommend the best logistics options'
+        slider_content: 'base on our customer’s needs, strive to meet customer’s expectations in terms of costs, assistance during the service and trust.'
         slider_image:
-          - carousel-2.jpg
+          - main-slider-(custom).jpeg
+      -
+        id: lp9so0y0
+        slider_title: 'With passion and integrity'
+        slider_content: 'we serve our customer to bring joy and prosperity by providing the perfect logistics solution for their business needs'
+        slider_image:
+          - slider-3-(custom)-(2).jpg
     type: section_slider
-    enabled: true
-  -
-    id: lnifp43c
-    grid_field:
-      -
-        id: lnifp9nn
-        two_title: 'Air Freight'
-        two_image:
-          - service-1.jpg
-      -
-        id: lnifqhqb
-        two_title: 'Sea Freight'
-        two_image:
-          - service-2.jpg
-    type: section_two
     enabled: true
   -
     id: lnifc8n7
     right_title: "Your One Stop Shipping\_Solution"
     right_image:
-      - 5-(crop2).jpg
+      - home-your-one-stop-shipping-solution.jpg
     type: section_right
     enabled: true
     right_description:
@@ -77,13 +68,16 @@ section:
           -
             type: text
             text: "We always be ready to support your logistics and supply chain in aim to help your business grow. By providing suitable option for delivery by sea, air and land, whatever your industry, we’re here as your global\_forwarding."
-    right_grid:
-      -
-        id: lnsyhorr
-        right_point_icon: fa-globe
-        right_point_title: 'Our Goals!'
-        right_point_description: "Providing wide range and efficient service to meet our customer’s needs, expectations and business objectives as their logistics partner\_and\_solution."
-        right_point_block: true
+    right_style: 'margin-top:5%'
+  -
+    id: lp9tlkjo
+    left_image:
+      - home-our-goals!-(large).jpg
+    left_title: '<span style="margin-top:50%">Our Goals!</span>'
+    left_description: "Providing wide range and efficient service to meet our customer’s needs, expectations and business objectives as their logistics partner\_and\_solution."
+    type: section_left
+    enabled: true
+    left_style: 'margin-top:20%'
   -
     id: lmywjvu3
     service_title: 'OUR SERVICES'
@@ -92,31 +86,35 @@ section:
       -
         id: lmywjwsc
         service_point_image:
-          - service-2.jpg
-        service_point_title: 'Seafreight forwarding'
-        service_point_description: '<p>Sea – Air cargo Movement<br>FCL – Full Container Loaded Services<br>LCL – Less Container Loaded Services<br>Break Bulk Shipping</p>'
+          - home-ourservice-seafreight-(small)-(custom).jpg
+        service_point_title: Seafreight
+        service_point_description: '<p>International Freight at lowest cost</p>'
       -
         id: lmywq8x6
         service_point_image:
-          - service-3.jpg
-        service_point_title: 'Trucking Services'
-        service_point_description: '<p>Door to Door Delivery<br>Customs Clearance <br>Consolidation Services <br>Project Cargo Handling</p>'
+          - home-ourservice-airfreight-(small)-(custom).jpg
+        service_point_title: Airfreight
+        service_point_description: '<p>When time and speed matter the most</p>'
       -
         id: lmywrfha
         service_point_image:
-          - service-1.jpg
-        service_point_title: 'Airfreight forwarding'
-        service_point_description: '<p>Air – Air cargo Movement<br><br><br><br></p><p></p>'
+          - home-our-service-trucking-(small)-(custom).jpg
+        service_point_title: Trucking
+        service_point_description: '<p>Customized over-the-road trucking solutions</p>'
+      -
+        id: lp9ussyu
+        service_point_image:
+          - home-ourservice-project-cargo-(small)-(custom).jpg
+        service_point_title: 'Project Cargo'
+        service_point_description: "<p>Customized and innovative solutions for your\_industrial projects</p>"
     type: section_service
     enabled: true
   -
-    id: lmzksa0s
-    quotation_title: 'Contact Us!'
-    quotation_description: |-
-      We always here for you to provide update rate quotation
-      please complete the following form and click "Submit"
-    quotation_contact_phone: '+6221 38873009'
-    quotation_contact_title: 'Call for any rate inquiry'
-    type: section_quotation
+    id: lp9vmrc5
+    block_header: 'Contact us for more information'
+    block_link: 'http://google.com'
+    block_button: 'Contact Us'
+    block_description: 'To find out how we can help with your shipping needs, contact our experienced and kindly friend today'
+    type: section_block
     enabled: true
 ---
