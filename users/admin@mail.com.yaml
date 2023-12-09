@@ -2,3 +2,12 @@ name: 'Super Admin'
 super: true
 id: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
 password_hash: $2y$10$eApmdMyZHxaZYv/TBxH7V.t3kEgaOt79j1E/b90vf2Rn2oyuUURCy
+preferences:
+  forms:
+    communication:
+      columns:
+        - datestamp
+        - name
+        - company
+        - email
+        - phone
