@@ -14,26 +14,32 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             {{ nav:collection:pages include_home="true" }}
 
-            {{ if children }}
+            {{ if slug != 'home' }}
 
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ title }}</a>
-                <div class="dropdown-menu fade-up m-0">
-                    {{ children }}
-                        {{ page_name | dump }}
-                        {{ if slug != 'corporate-brochure' }}
-                            <a href="{{ url }}" class="dropdown-item">{{ title }}</a>
-                        {{ else }}
-                        {{ configuration:website_quotation }}
-                            <a target="_blank" href="{{ url }}" download class="dropdown-item">Corporate Brochure</a>
-                        {{ /configuration:website_quotation }}
-                        {{ /if }}
-                    {{ /children }}
+                {{ if children }}
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ title }}</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        {{ children }}
+                            {{ page_name | dump }}
+                            {{ if slug != 'corporate-brochure' }}
+                                <a href="{{ url }}" class="dropdown-item">{{ title }}</a>
+                            {{ else }}
+                            {{ configuration:website_quotation }}
+                                <a target="_blank" href="{{ url }}" download class="dropdown-item">Corporate Brochure</a>
+                            {{ /configuration:website_quotation }}
+                            {{ /if }}
+                        {{ /children }}
+                    </div>
                 </div>
-            </div>
 
-            {{ else}}
-            <a href="{{ url }}" class="nav-item nav-link {{ if is_current }} active {{ /if }}">{{ title }}</a>
+                {{ else}}
+
+                <a href="{{ url }}" class="nav-item nav-link {{ if is_current }} active {{ /if }}">{{ title }}</a>
+
+                {{ /if }}
+
             {{ /if }}
 
             {{ /nav:collection:pages }}
