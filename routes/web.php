@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Statamic\Facades\Entry;
+use Statamic\Facades\GlobalSet;
+use Statamic\Globals\Variables;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
 // ]);
+
+Route::get('brochure', function(){
+    return response()->download(public_path('assets/brochure.pdf'));
+});

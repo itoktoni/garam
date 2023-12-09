@@ -1,6 +1,6 @@
 <!-- Feature Start -->
-<div class="container-fluid overflow-hidden px-lg-0">
-    <div class="container feature py-5 px-lg-0">
+<div class="container-fluid overflow-hidden pt-5 px-lg-0">
+    <div class="container feature px-lg-0">
         <div class="row g-5 mx-lg-0">
             <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-secondary text-uppercase mb-3">{{ right_sub_title }}</h6>
@@ -10,15 +10,14 @@
                 </p>
                 {{ right_grid }}
                 {{ if right_point_block }}
-                <div class="mb-5 mt-5 wow fadeInUp right-block" data-wow-delay="0.3s">
-                    <div class="col col-lg-12 mb-4">
-                        <i class="fa {{ right_point_icon }} text-primary fa-3x flex-shrink-0"></i>
-                    </div>
-                    <div class="ms-12 col col-ld-auto mb-4">
-                        <h5 class="text-white">{{ right_point_title }}</h5>
-                        <p class="mb-0">
-                            {{ right_point_description }}
-                        </p>
+                <div class="row" >
+                    <div class="ms-12 col col-ld-auto mb-1">
+                        {{ if right_point_description }}
+                        <div class="title">{{ right_point_title }}</div>
+                        <div class="mb-1 mt-1 wow fadeInUp right-block" data-wow-delay="0.3s">{{ right_point_description }}</div>
+                        {{ else }}
+                        <li class="title">{{ right_point_title }}</li>
+                        {{ /if }}
                     </div>
                 </div>
                 {{ else }}

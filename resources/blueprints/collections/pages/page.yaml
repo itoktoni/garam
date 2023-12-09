@@ -88,6 +88,11 @@ sections:
               fields:
                 -
                   import: section_block
+            section_map:
+              display: 'Section Map'
+              fields:
+                -
+                  import: section_map
           display: 'New Section'
           type: replicator
           icon: replicator

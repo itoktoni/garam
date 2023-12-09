@@ -3,7 +3,7 @@ id: 006f2a2f-3834-48ab-ad63-fd4767697b6b
 blueprint: page
 title: Home
 updated_by: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
-updated_at: 1700664815
+updated_at: 1700667926
 template: default
 replicator_field:
   -
@@ -112,7 +112,7 @@ section:
   -
     id: lp9vmrc5
     block_header: 'Contact us for more information'
-    block_link: 'http://google.com'
+    block_link: 'https://gttransportindo.com/contact'
     block_button: 'Contact Us'
     block_description: 'To find out how we can help with your shipping needs, contact our experienced and kindly friend today'
     type: section_block

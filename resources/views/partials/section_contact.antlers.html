@@ -1,8 +1,9 @@
 <!-- Contact Start -->
 <div class="container-fluid overflow-hidden px-lg-0">
-    <div class="container contact-page py-5 px-lg-0">
+    <div class="container contact-page px-lg-0">
         <div class="row g-5 mx-lg-0">
-            <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
+
+            <div class="{{ if contact_map }} col-md-6 {{ else }} col-md-12 {{ /if }} contact-form wow fadeIn" data-wow-delay="0.1s">
                 <h1 class="mb-4">{{ contact_title }}</h1>
                 <p class="mb-4">
                     {{ contact_content }}
@@ -51,19 +52,15 @@
                 </div>
 
             </div>
+            {{ if contact_map }}
             <div class="col-md-6 wow fadeInRight" data-wow-delay="0.1s">
 
                 <div class="position-relative" style="margin-top:10%;padding:20px">
                     {{ contact_map }}
                 </div>
 
-                <div class="col-lg-12 col-md-12">
-                    <h4 class="text mb-4">Head Office and Warehouse</h4>
-                    <p class="mb-2">Address : {{ configuration:website_address }}</p>
-                    <p class="mb-2">Phone : </i>{{ configuration:website_phone }}</p>
-                    <p class="mb-2">{{ configuration:website_email }}</p>
-                </div>
             </div>
+            {{ /if }}
         </div>
     </div>
 </div>
