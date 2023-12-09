@@ -3,7 +3,7 @@ id: 65642933-be5d-4dcd-b6a7-b1b0335d5094
 blueprint: page
 title: 'Vision & Mission'
 updated_by: 09990f5c-53e3-4aa6-a9d5-c8b126ea6925
-updated_at: 1702130430
+updated_at: 1702137489
 section:
   -
     id: lpy4aluy
