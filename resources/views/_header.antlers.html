@@ -25,7 +25,6 @@
                     <a href="#" class="nav-link {{ if is_current }} active {{ /if }} dropdown-toggle" data-bs-toggle="dropdown">{{ title }}</a>
                     <div class="dropdown-menu fade-up m-0">
                         {{ children }}
-                            {{ page_name | dump }}
                             {{ if slug != 'corporate-brochure' }}
                                 <a href="{{ url }}" class="dropdown-item {{ if is_current }} active {{ /if }}">{{ title }}</a>
                             {{ else }}

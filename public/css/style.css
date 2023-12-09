@@ -456,8 +456,8 @@
 }
 
 .footer .btn.btn-link:hover {
-    letter-spacing: 1px;
     box-shadow: none;
+    color: #FF3E41;
 }
 
 .footer .copyright {

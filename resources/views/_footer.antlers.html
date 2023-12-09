@@ -16,9 +16,26 @@
             </div>
             <div class="col-lg-2 col-md-6">
                 <h4 class="text-light mb-4">Services</h4>
-                <a class="btn btn-link" href="">Air Freight</a>
-                <a class="btn btn-link" href="">Sea Freight</a>
-                <a class="btn btn-link" href="">Trucking</a>
+                {{ nav:collection:pages }}
+
+                {{ if slug == 'services' }}
+
+                    {{ children }}
+
+                    {{ if slug != 'corporate-brochure' }}
+                        <a href="{{ url }}" class="btn btn-link {{ if is_current }} active {{ /if }}">{{ title }}</a>
+                    {{ else }}
+                        {{ configuration:website_quotation }}
+                            <a target="_blank" href="{{ url }}" download class="btn btn-link">Corporate Brochure</a>
+                        {{ /configuration:website_quotation }}
+                    {{ /if }}
+
+                    {{ /children }}
+
+                {{ /if }}
+
+                {{ /nav:collection:pages }}
+
             </div>
         </div>
     </div>
